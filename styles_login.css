@@ -1,0 +1,64 @@
+#body{
+    background-image: url(Fundo\ site.png);
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+    text-align: center;
+    }
+div{
+    width: 420px;
+    border: none;
+    margin: 0 auto;
+    border-radius: 12px;
+    background: rgb(73,148,126);
+    background: radial-gradient(circle, rgba(73,148,126,1) 0%, rgba(39,79,67,1) 30%, rgba(1,3,3,1) 80%, rgba(0,0,0,1) 100%);
+    border-color: rgb(43, 226, 131);
+
+    height: 500px;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 130px;
+}
+input{
+    color: white;
+    border: solid 1px white;
+    background: none;
+    width: 270px;
+    height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 16px;
+}
+input::placeholder{
+    color: white;
+}
+
+button{
+    font-size: 13px;
+    width: 90px;
+    height: 40px;
+    border-radius: 8px;
+    opacity: calc(80%);
+    background-color: #7C5797;
+    color: #ddd;
+    border: none;
+    animation: ease-in-out;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: #9065af;
+    color: white;
+    transition: background-color 0.3s;
+    opacity: calc(100%);
+    width: 95px;
+    height: 45px;
+    transition: 0.5s;
+}
+h1{
+    font-size: 55px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: blueviolet;
+    border-color: azure;
+}
+
